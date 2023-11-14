@@ -4,10 +4,34 @@ const BASE_URL = "http://localhost:3000";
 
 const CitiesContext = createContext();
 
+const CitiesContext = createContext();
+
+const initialState = {
+  cities: [],
+  isLoading: false,
+  currentCity: {},
+};
+
+function reducer(state, action) {
+  switch (action.type) {
+    case "cities/loaded": 
+      return {
+        ... state, isLoading: false, cities.action.payload,
+      }
+
+    case "cities/created":
+
+    case 'cities/delete':
+
+    default: throw new Error("Unknown action type ")
+  }
+}
+
 function CitiesProvider({ children }) {
-  const [cities, setCities] = useState([]);
-  const [isLoading, setIsLoading] = useState(false);
-  const [currentCity, setCurrentCity] = useState({});
+  const [{ cities, isLoading, currentCity }, dispatch] = useReducer(
+    reducer,
+    initialState
+  );
 
   useEffect(function () {
     async function fetchCities() {

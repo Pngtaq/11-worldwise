@@ -23,54 +23,6 @@
         "lng": -3.7133789062500004
       },
       "id": 17806751
-    },
-    {
-      "cityName": "Faro",
-      "country": "Germany",
-      "emoji": "🇩🇪",
-      "date": "2027-02-12T09:24:11.863Z",
-      "notes": "Amazing 😃",
-      "position": {
-        "lat": 52.53586782505711,
-        "lng": 13.376933665713324
-      },
-      "id": 98443197
-    },
-    {
-      "cityName": "Munopedro",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2023-11-13T09:57:40.364Z",
-      "notes": "asdas",
-      "position": {
-        "lat": "40.88029480552824",
-        "lng": "-4.460449218750001"
-      },
-      "id": 98443199
-    },
-    {
-      "cityName": "Lecinena",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2023-11-13T09:59:40.328Z",
-      "notes": "asdsa",
-      "position": {
-        "lat": "41.78769700539063",
-        "lng": "-0.5493164062500001"
-      },
-      "id": 98443200
-    },
-    {
-      "cityName": "Seneffe",
-      "country": "Belgium",
-      "emoji": "🇧🇪",
-      "date": "2023-11-13T10:51:17.886Z",
-      "notes": "",
-      "position": {
-        "lat": "50.51342652633956",
-        "lng": "4.284667968750001"
-      },
-      "id": 98443204
     }
   ]
 }
